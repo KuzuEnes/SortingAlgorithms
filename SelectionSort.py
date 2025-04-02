@@ -8,6 +8,6 @@ def selection_sort(liste):
         liste[i], liste[min_index] = liste[min_index], liste[i]
     return liste
 
-# Kullanım
+
 sayilar = [64, 25, 12, 22, 11]
 print(selection_sort(sayilar))
