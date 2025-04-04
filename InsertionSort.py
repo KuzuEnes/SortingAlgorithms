@@ -8,9 +8,12 @@ def insertion_sort(liste):
         liste[j + 1] = anahtar
     return liste
 
-
+# Örnek kullanım
 sayilar = [12, 11, 13, 5, 6]
 print(insertion_sort(sayilar))
-# Bu algoritma, bir elemanı diğerlerinden küçük veya büyük olduğu durumda uygun konuma yerleştirerek çalışır.
 # Time Complexity : O(n²)
 # Space Complexity : O(1)
+# 1.Dizinin ikinci elemanından başlayarak, her elemanı birbirinden önceki sıralı diziyle karşılaştır.
+# 2.Karşılaştırılan elemandan daha büyük olan elemanları sağa kaydır ve uygun konuma elemanı yerleştir.
+# 3.Bu işlem, dizinin son elemanına kadar devam eder.
+# 4.Dizinin sonuna gelindiğinde, tüm elemanlar sıralı olur.
